@@ -4,12 +4,16 @@ Este proyecto es una aplicación completa para la gestión de un centro de esté
 
 ---
 
-## 📦 Tecnologías utilizadas
+## 🛠️ Tecnologías Utilizadas
 
-- **Frontend:** React + TailwindCSS
-- **Backend:** Django + Django REST Framework
-- **Base de Datos:** MySQL
-- **PDF Generation:** WeasyPrint
+| Categoría       | Tecnologías                                                                                                                                  |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| 🖥️ Frontend     | ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white&style=flat) ![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?logo=tailwindcss&logoColor=white&style=flat) |
+| 🧩 Backend      | ![Django](https://img.shields.io/badge/-Django-092E20?logo=django&logoColor=white&style=flat) ![DRF](https://img.shields.io/badge/-DRF-red?logo=django&logoColor=white&style=flat) |
+| 🗄️ Base de Datos | ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white&style=flat)                                                  |
+| 📄 PDF Generator | ![WeasyPrint](https://img.shields.io/badge/-WeasyPrint-FF6F61?style=flat)                                                                    |
+
+---
 
 ---
 
