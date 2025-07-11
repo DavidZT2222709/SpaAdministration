@@ -1,4 +1,5 @@
 from django.urls import path, include
+from rest_framework.documentation import include_docs_urls
 from rest_framework.routers import DefaultRouter
 from .views import *
 
@@ -17,5 +18,5 @@ urlpatterns = [
     path('tipos-documento2/', TipoDocumentoChoices2.as_view(), name='tipos-documento'),
     path('estados-cita/', appointment_statuses, name='estados-cita'),
     path('historias-clinicas/', HistoriasPorPaciente.as_view(), name='historias-clinicas'),
-
+    path('docs/', include_docs_urls(title='Negocio API'))
 ]
